@@ -1,0 +1,83 @@
+body {
+  background-color: #f0f0f0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.stopwatch-container {
+  background-color: white;
+  border-radius: 30px;
+  padding: 40px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 400px;  /* Increased width for larger interface */
+}
+
+h1 {
+  color: #007bff;
+  font-size: 2.5em;  /* Larger font size */
+  margin: 0 0 20px;
+}
+
+#display {
+  font-size: 5em;  /* Significantly larger display font */
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.controls {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 30px;
+}
+
+button {
+  border: none;
+  border-radius: 50%;
+  width: 80px;  /* Larger buttons */
+  height: 80px;
+  font-size: 2em;  /* Larger icons/text */
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#reset {
+  background-color: #f0f0f0;
+  color: #333;
+}
+
+#lap {
+  background-color: #ffc107;
+  color: white;
+}
+
+#start {
+  background-color: #6f42c1;
+  color: white;
+}
+
+#pause {
+  background-color: #dc3545;
+  color: white;
+}
+
+#laps {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  text-align: left;
+  font-size: 1.5em;  /* Larger lap text */
+}
+
+#laps li {
+  background-color: #f8f9fa;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 8px;
+}
